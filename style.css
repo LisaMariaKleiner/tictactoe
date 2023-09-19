@@ -3,6 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 20px; /* Setze den Margin auf 20px an allen Seiten */
     color: white;
+    min-height: 80vh;
 }
 
 .content {
@@ -68,5 +69,20 @@ tr:nth-of-type(3) td {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 50px;
+}
+
+
+#reset {
+    background-color: #00B0EF; /* Hintergrundfarbe (entspricht der Farbe des Kreises) */
+    color: white; /* Textfarbe */
+    padding: 10px 20px; /* Innenabstand des Buttons */
+    border: none; /* Kein Rahmen */
+    border-radius: 5px; /* Abgerundete Ecken */
+    cursor: pointer; /* Zeiger beim Überfahren des Buttons */
+}
+
+  /* Hover-Effekt: Ändern der Hintergrundfarbe beim Überfahren */
+#reset:hover {
+    background-color: #FFC000; /* Neue Hintergrundfarbe beim Überfahren (entspricht der Farbe des "X") */
 }
