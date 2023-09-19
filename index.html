@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,17 +10,17 @@
 </head>
 
 <body onload="init()">
-    <h1>Tic Tac Toe</h1>
+    <div class="tictactoe">
+        <h1>Tic Tac Toe</h1>
 
-    <div class="container" id="content"></div>
+        <div class="content" id="content"></div>
 
-    <div class="status">
-        <p>Am Zug: <span id="player">Spieler X</span></p>
-        <p id="result"></p>
+        <div class="status">
+            <div id="winner" class="winner"></div>
+            <button id="reset">Spiel zurücksetzen</button>
+        </div>
+
     </div>
-
-    <button id="reset">Spiel zurücksetzen</button>
 </body>
 
 </html>
-
